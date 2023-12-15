@@ -35,8 +35,8 @@ function PasswordReset() {
     }
   };
   return (
-    <div className="register-container"> {/* Apply the same container class */}
-      <div className="register-form"> {/* Apply the same form class */}
+    <div className="register-container"> 
+      <div className="register-form"> 
         <h2 className="text-center">Password</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
