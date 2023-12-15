@@ -23,7 +23,7 @@ function PasswordReset() {
     event.preventDefault();
     try {
       console.log("Sending request with password:", password, "and token:", token);
-      const response = await axios.post(`https://flourishing-cascaron-bece24.netlify.app/api/PasswordReset/${token}`, { newpassword: password });
+      const response = await axios.post(`https://passwordreset-fnrr.onrender.com/api/PasswordReset/${token}`, { newpassword: password });
 
       alert('Password updated successfully');
       navigate('/login')

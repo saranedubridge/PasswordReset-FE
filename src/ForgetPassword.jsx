@@ -14,7 +14,7 @@ function PasswordResetRequest() {
         event.preventDefault();
     
         try {
-            const response = await axios.post('https://flourishing-cascaron-bece24.netlify.app/api/passwordRequest', { email });
+            const response = await axios.post('https://passwordreset-fnrr.onrender.com/api/passwordRequest', { email });
     
             if (response.status === 200) {
                 alert('Password reset link sent successfully');

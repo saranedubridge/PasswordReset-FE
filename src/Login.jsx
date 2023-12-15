@@ -15,7 +15,7 @@ function Login() {
         event.preventDefault();
     
         try {
-          const response = await axios.post('https://flourishing-cascaron-bece24.netlify.app/api/login', {
+          const response = await axios.post('https://passwordreset-fnrr.onrender.com/api/login', {
             email,
             password,
           });
