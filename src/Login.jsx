@@ -15,7 +15,7 @@ function Login() {
         event.preventDefault();
     
         try {
-          const response = await axios.post('http://localhost:3001/api/login', {
+          const response = await axios.post('https://flourishing-cascaron-bece24.netlify.app/api/login', {
             email,
             password,
           });

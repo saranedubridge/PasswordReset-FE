@@ -18,7 +18,7 @@ function Register() {
         console.log('Registering user...');
         try{
 
-            const response = await axios.post('http://localhost:3001/api/users', {name,email,password});
+            const response = await axios.post('https://flourishing-cascaron-bece24.netlify.app/api/users', {name,email,password});
 
             
         if (response.status === 200) {
